@@ -1,0 +1,97 @@
+
+.contenedor
+{
+    width: 600px; /* ancho */
+    background-color: #ffffff ;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+
+.contenedor h1
+{
+    text-align: center;
+    color:#3ED5B2  ;
+}
+
+.contenedor table
+{
+    margin-top: 30px; /*margen desde arriba */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 24px; /*tamaño de la letra*/
+}
+
+.contiene
+{
+    width: 30px;
+    background-color: #3ED5B2 ;
+    padding: 30px;
+}
+
+.no_contiene
+{
+    width: 30px;
+    background-color:#3ed5b26b ;
+    padding: 10px;
+}
+
+.contenedor-alternativa
+{
+    display: flex; /*colocar los div uno al lado de otro */
+    justify-content: center; /*centrar los div en el contenedor */
+}
+
+.caja
+{
+    width: 30px;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(36, 78, 36);
+    background-color: rgb(65, 199, 83);
+    border: 1px solid rgb(37, 97, 37);
+    cursor: pointer;
+    margin: 2px;
+}
+
+.resultado
+{
+    background-color: #3ED5B2 ;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* estilo cronometro */
+* 
+{
+    transition: all 0.3s;
+}
+
+.marco 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: calibri;
+    color: black;
+}
+
+.botones-contenedor 
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn 
+{
+    cursor: pointer;
+    display: inline-block;
+    font-size: 60%;
+    padding: 20px
+}
